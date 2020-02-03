@@ -1,9 +1,9 @@
 # Simple-FPS-Controller
 Unity asset that can help you develop your First Person Game<br>
 Additional information about the controller:<br>
-1. Wall run
-2. Grappling hook
-3. Sliding on rotated objects
+1. Wall run<br>
+2. Grappling hook<br>
+3. Sliding on rotated objects<br>
 <br><br>
 📲 Social Media and Contacts 📲<br>
 ➡ WEBSITE - https://thedevelopers.tech<br>
