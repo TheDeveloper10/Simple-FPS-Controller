@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1386491679 &1
+PresetManager:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_DefaultPresets:
+  - first:
+      m_NativeTypeID: 1020
+      m_ManagedTypePPtr: {fileID: 0}
+      m_ManagedTypeFallback: 
+    second:
+    - m_Preset: {fileID: 2655988077585873504, guid: a62e471e0ca674b4e85aa19cf0255f9a,
+        type: 2}
+      m_Filter: 
+    - m_Preset: {fileID: 2655988077585873504, guid: 5b84884e1453174448a48583b7c61acd,
+        type: 2}
+      m_Filter: 
+    - m_Preset: {fileID: 2655988077585873504, guid: 1be85ddf9122c2240953a25a2c88c590,
+        type: 2}
+      m_Filter: 
+  - first:
+      m_NativeTypeID: 1006
+      m_ManagedTypePPtr: {fileID: 0}
+      m_ManagedTypeFallback: 
+    second:
+    - m_Preset: {fileID: 2655988077585873504, guid: dfd84034dda52ac428c2f7447b636844,
+        type: 2}
+      m_Filter: 
+    - m_Preset: {fileID: 2655988077585873504, guid: 8d83d7ed60013d64e89f6bcb8f957303,
+        type: 2}
+      m_Filter: 
+    - m_Preset: {fileID: 2655988077585873504, guid: 10610e33baf3a824db91f1059eaadf8c,
+        type: 2}
+      m_Filter: 
+  - first:
+      m_NativeTypeID: 108
+      m_ManagedTypePPtr: {fileID: 0}
+      m_ManagedTypeFallback: 
+    second:
+    - m_Preset: {fileID: 2655988077585873504, guid: 01aac697873fae4498f44e9e8a26d76b,
+        type: 2}
+      m_Filter: 
