@@ -4,6 +4,9 @@ Additional information about the controller:<br>
 1. Wall run<br>
 2. Grappling hook<br>
 3. Sliding on rotated objects<br>
+4. Inventory<br>
+5. Pick up and drop system<br>
+6. Health and health bar<br>
 <br><br>
 📲 Social Media and Contacts 📲<br>
 ➡ WEBSITE - https://thedevelopers.tech<br>
