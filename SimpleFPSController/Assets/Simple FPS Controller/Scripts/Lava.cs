@@ -9,8 +9,7 @@ public class Lava : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            Diamond.st.ShowTransition(SceneManager.GetActiveScene().buildIndex);
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+            SceneTransition.mainSceneTransition.ChangeScene(-1);
         }
     }
 }

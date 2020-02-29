@@ -4,23 +4,14 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    public static Weapons _weapons_;
     public uint ammo = 30;
-    public bool isInside = false;
 
     public void OnTriggerEnter(Collider col)
     {
         if (col.CompareTag("Player"))
         {
-            isInside = true;
-        }
-    }
-
-    public void OnTriggerExit(Collider col)
-    {
-        if (col.CompareTag("Player"))
-        {
-            isInside = false;
+            Weapons.mainWeapons.AddAmmo(ammo);
+            Destroy(this.gameObject);
         }
     }
     
@@ -40,15 +31,7 @@ public class Ammo : MonoBehaviour
         if (timer > 3.14f)
             timer -= 6.28f;
 
-        //Debug.Log(timer + " " + Sin(timer));
-
         transform.localPosition = initialPosition +
             upVector * Mathf.Sin(timer) * amplitude;
-
-        if (isInside)
-        {
-            _weapons_.AddAmmo(ammo);
-            Destroy(this.gameObject);
-        }
     }
 }

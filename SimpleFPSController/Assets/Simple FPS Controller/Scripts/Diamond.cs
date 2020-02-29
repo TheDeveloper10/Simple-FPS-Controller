@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Diamond : MonoBehaviour
 {
-    public static SceneTransition st;
-
     public int nextScene = -1;
+
     private void Update()
     {
         transform.eulerAngles += Vector3.up * 15 * Time.deltaTime;
@@ -19,7 +18,7 @@ public class Diamond : MonoBehaviour
         {
             if (nextScene != -1)
             {
-                st.ShowTransition(nextScene);
+                SceneTransition.mainSceneTransition.ChangeScene(nextScene);
             }
         }
     }

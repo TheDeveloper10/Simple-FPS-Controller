@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Simple FPS Controller/Scenes/Level2.unity
     guid: 37d0168f973579840b472dffecc80197
+  - enabled: 1
+    path: Assets/Simple FPS Controller/Scenes/Level3.unity
+    guid: 167b2c65e058abc40a3b4a9e3960d93c
+  - enabled: 1
+    path: Assets/Simple FPS Controller/Scenes/Credits.unity
+    guid: 4e139c86a6e50e34fbc27c8135e85cab
   m_configObjects: {}
